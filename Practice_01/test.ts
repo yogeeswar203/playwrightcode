@@ -29,3 +29,31 @@ function m2()
     //console.log(msg);
 }
 m2();
+
+var x;
+console.log(x);
+x =10;
+console.log(x);
+
+let y;
+console.log(y)
+y=12;
+console.log(y)
+y = 13
+console.log(y)
+
+const z=50;
+console.log(z);
+
+var city = "Eturu";
+var city = "Kondapuram"
+console.log(city);
+
+let city1 = "IND"
+let city12 = "IND2"
+
+var c1;
+c1 = 100
+//console.log(c1)
+c1 = 110
+console.log(c1)
