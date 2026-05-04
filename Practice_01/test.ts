@@ -57,3 +57,4 @@ c1 = 100
 //console.log(c1)
 c1 = 110
 console.log(c1)
+//testing the const variable
