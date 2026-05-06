@@ -58,3 +58,37 @@ c1 = 100
 c1 = 110
 console.log(c1)
 //testing the const variable
+
+console.log(z);
+//Okay  
+
+function m3(){
+    if(true)
+    {
+        var msg21 = "This is JS Progam"
+
+    }
+    console.log(msg21)
+}
+
+function isPrime(num:number):boolean
+{
+    if(num <= 1){
+        return false;
+
+    
+    }
+    for(let i=2; i<=Math.sqrt(num); i++)
+    {
+        if(num % i === 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}     
+console.log(isPrime(7));
+
+function m4(){
+
+}
