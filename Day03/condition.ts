@@ -76,8 +76,8 @@ default: statements;
 
 */
 
-
-let day:number = 3;
+console.log("-----------------------------------------------")
+let day:number = 8;
 switch (day)
 {
     case 1:
@@ -100,4 +100,22 @@ switch (day)
         break;
     default: console.log("Invalid week")
 
+}
+
+console.log("-----------------------------------------------")
+let x1:number= 25, y:number=5;
+
+switch(x1-y)
+{
+    case 0: 
+        console.log("Result is zero");
+        break;
+    case 5:
+        console.log("Result is FIVE");
+        break;
+    
+    case 10:
+        console.log("Result is 10");
+        break;
+    default: console.log("Result is different")
 }
