@@ -65,7 +65,43 @@ function checkNumType(n1:number)
 }
 
 
+function checkSenior(age:number)
+{
+    if(age>=60)
+    {
+        console.log(`This person is eligible for the discount ${age}`)
+    }else
+    {
+        console.log(`This person is not eligible for the discount: ${age}`)
+    }
+}
 
+function findLargeNum1(n1:number, n2:number, n3:number)
+{
+    if(n1>n2 && n1>n3)
+    {
+        console.log(`${n1} is greater than ${n2} & ${n3}`)
+    }else if(n2>n1 && n2>n3)
+    {
+         console.log(`${n2} is greater than ${n1} & ${n3}`)
+    }else
+    {
+        console.log(`${n3} is greater than ${n1} & ${n2}`)
+    }
+
+}
+
+
+function positiveEven(n1:number){
+    if(n1%2 ==0 && n1>0)
+    {
+        console.log(`Given number is ${n1} Positive and Even Number`)
+    }else
+    {
+        console.log(`Given number ${n1} is not positive number or Even number`)
+    }
+
+}
 
 
 
@@ -83,3 +119,9 @@ findLargeNum(10, 15);
 checkAge(20);
 console.log("------------- Program 5 ----------------------")
 checkNumType(1);
+console.log("------------- Program 5 ----------------------")
+checkSenior(60);
+console.log("------------- Program 6 ----------------------")
+findLargeNum1(30, 25, 20);
+console.log("------------- Program 6 ----------------------")
+positiveEven(198);
