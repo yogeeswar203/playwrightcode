@@ -32,13 +32,24 @@ while(condition)
 // }
 
 
+
+// for(i=1; i<=5; i++)
+// {
+//     console.log(`${i}`)
+// }
+
+// console.log(i);
+
+// for(i=2; i<20; i++);
+// console.log(i);
+
 let i:number=10;
-for(i=1; i<=5; i++)
+for(i=1; i<10; i++)
 {
-    console.log(`${i}`)
+    if(i==5 || i ==2 || i ==3)
+    {
+        
+        continue;
+    }
+    console.log(`Value is reached to 5 ${i}`)
 }
-
-console.log(i);
-
-for(i=2; i<20; i++);
-console.log(i);
