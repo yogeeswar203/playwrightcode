@@ -119,7 +119,7 @@ findLargeNum(10, 15);
 checkAge(20);
 console.log("------------- Program 5 ----------------------")
 checkNumType(1);
-console.log("------------- Program 5 ----------------------")
+console.log("------------- Program 6 ----------------------")
 checkSenior(60);
 console.log("------------- Program 6 ----------------------")
 findLargeNum1(30, 25, 20);
