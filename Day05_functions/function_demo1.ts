@@ -68,3 +68,20 @@ function discount(price:number, rate:number=10):void
 }
 
 discount(10);
+
+
+// Anynomous function demo
+
+let msg = function():string
+{
+    return "Hello This is anonymous function";
+}
+
+console.log(msg());
+
+let msg1 = function(a:number, b:number):number
+{
+    return a*b;
+}
+
+console.log(msg1(10, 20));
