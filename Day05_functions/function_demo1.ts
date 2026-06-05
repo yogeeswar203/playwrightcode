@@ -85,3 +85,69 @@ let msg1 = function(a:number, b:number):number
 }
 
 console.log(msg1(10, 20));
+
+// demo for the arrow functions
+
+let ms=():void =>
+{
+    console.log("This is arrow function")
+}
+
+ms();
+
+// with parameters
+
+let add=(n1:number, n2:number):number =>
+{
+    return n1+n2;
+}
+
+console.log("The sum of the values is:",add(10, 20));
+
+
+// Arrow function with implicit return
+
+let add2=(n1:number, n2:number):number => n1*n2;
+
+console.log("The multiplication of the values is:",add2(10, 10));
+
+
+let details=(id:number, emp: string, GameName?:string): void =>
+{
+    console.log(`id:${id}`)
+    console.log(`Emp:${emp}`)
+
+    if(GameName!==undefined)
+    {
+        console.log(`Game Name: ${GameName}`)
+    }
+}
+
+details(1, "Shardul");
+details(1, "Shardul","Test Match");
+details(1, "Shardul","Cricket");
+
+
+let price1=(rate:number, dis:number=0.5):void =>
+{
+    let discount:number = rate * dis;
+    let cost:number = rate - discount;
+    console.log(`The discoumt is applied is: ${discount} and after discount item price is: ${cost}`);
+}
+
+price1(20);
+
+let findEl=(...rolenumbers:number[]):number=>
+{
+    return rolenumbers.length;
+}
+
+console.log(findEl(1,2,3));
+
+
+let msg3=(n1:number, n2:number):void=>
+{
+    console.log("This message 3:",n1*n2);
+}
+
+msg3(20, 15);
