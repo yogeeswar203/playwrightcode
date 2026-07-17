@@ -145,9 +145,3 @@ let findEl=(...rolenumbers:number[]):number=>
 console.log(findEl(1,2,3));
 
 
-let msg3=(n1:number, n2:number):void=>
-{
-    console.log("This message 3:",n1*n2);
-}
-
-msg3(20, 15);
