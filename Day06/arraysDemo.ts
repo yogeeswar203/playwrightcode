@@ -60,3 +60,18 @@ let arr3:number[] = [1,2,3]
 
 console.log("printing the data using the function")
 console.log(search(1, arr3));
+
+// returning Array the values usig function
+
+function rarr(arr:string[]):string[]{
+
+    let a1:string[] = [];
+    for(let i=0; i<arr.length; i++)
+    {
+        a1[i] = arr[i].toUpperCase();
+    }
+
+     return a1;
+}
+
+console.log(rarr(['test', 'test2']));
