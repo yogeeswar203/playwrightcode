@@ -79,3 +79,34 @@ console.log(hg);
 
 let hg1 = numbers.filter((e1)=>{return(e1>2)});
 console.log(hg1);
+
+// some() ==> checks if any element is satiesfies the condition then it will return the true
+// returs true or false if any one of the element passes the given condition
+// Syntax: array.some(function(currentValue, index, array){});
+
+let hasNe = numbers.some((e1)=>e1<0);
+console.log(hasNe);
+let hasPas = numbers.some((e1)=>e1>0);
+console.log(hasPas);
+
+
+
+// every function
+// each and every element must satiesfy the condition
+
+let eveN = numbers.every((e1)=>e1<0);
+
+console.log(eveN);
+
+let evn = numbers.every((e1)=>(e1%2==0));
+
+console.log("All the numbers are even or not:",evn);
+
+// every means all the elememts must statiesfy the condition 
+// Some means any one of the element is matching the condition then it will true or false based on the condition
+//
+//  forEach() --> nothing will return
+//  map() --> will return the array
+// filter() --> will return the array
+// reduce() --> will return the single value because of accumelator
+// some & every() will return true or false 
